@@ -1,0 +1,27 @@
+@charset 'utf-8';
+@import 'nord/src/sass/nord.scss';
+
+// shades
+$black: $nord0;
+$black-bis: $nord1;
+$black-ter: $nord2;
+
+$grey-darker: darken($nord3, 5%);
+$grey-dark: $nord3;
+$grey: lighten($nord3, 25%);
+$grey-light: lighten($nord3, 35%);
+$grey-lighter: lighten($nord3, 48%);
+
+$white: lighten($nord6, 4%);
+$white-bis: lighten($nord6, 2%);
+$white-ter: $nord6;
+
+// colors
+$turquoise: $nord8;
+$cyan: $nord9;
+$blue: $nord10;
+$red: $nord11;
+$orange: $nord12;
+$yellow: $nord13;
+$green: $nord14;
+$purple: $nord15;
