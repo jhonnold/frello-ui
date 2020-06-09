@@ -13,6 +13,7 @@ module.exports = {
         disableHostCheck: true,
         port: 8081,
     },
+    devtool: 'inline-source-map',
     entry: {
         app: ['babel-polyfill', 'react-hot-loader/patch', './src/index.tsx'],
     },

@@ -1,9 +1,13 @@
 import React from 'react';
+import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
+import SignupPage from './pages/signup-page';
 
-interface AppProps {
-    name: string;
-}
-
-const App: React.FC<AppProps> = ({ name }) => <h1>Hello, {name}!</h1>;
+const App: React.FC = () => (
+    <Router>
+        <Switch>
+            <Route component={SignupPage} />
+        </Switch>
+    </Router>
+);
 
 export default App;
